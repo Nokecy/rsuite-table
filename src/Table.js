@@ -146,6 +146,7 @@ const Table = React.createClass({
   onColumnResizeMove(width, left, fixed) {
     const mouseAreaLeft = width + left;
     const x = fixed ? mouseAreaLeft : mouseAreaLeft + (this.scrollX || 0);
+    const styles = {};
     translateDOMPositionXY(styles, x, 0);
     addStyle(this.mouseArea, styles);
   },
@@ -536,7 +537,7 @@ const Table = React.createClass({
       return false;
     }
 
-    return  (delta >= 0 && this.scrollX > this.minScrollX) ||
+    return (delta >= 0 && this.scrollX > this.minScrollX) ||
       (delta < 0 && this.scrollX < 0);
   },
   shouldHandleWheelY(delta) {
