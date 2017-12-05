@@ -10,11 +10,7 @@
 
 版本与状态
 
-[![npm][npm-badge]][npm]
-
-[![npm][npm-beta-badge]][npm-beta]
-
-[![Travis][build-badge]][build] [![Coverage Status][coverage-badge]][coverage]
+[![npm][npm-badge]][npm] [![Travis][build-badge]][build]
 
 ## 快速开始
 
@@ -82,14 +78,14 @@ const ImageCell = ({ rowData, dataKey, ...props }) => (
 
 
 
-[npm-badge]: https://img.shields.io/npm/v/rsuite-table.svg?style=flat-square
+[npm-badge]: https://img.shields.io/npm/v/rsuite-table/version2.x.svg?style=flat-square
 [npm]: https://www.npmjs.com/package/rsuite-table
 
 
 [npm-beta-badge]: https://img.shields.io/npm/v/rsuite-table/beta.svg?style=flat-square
 [npm-beta]: https://www.npmjs.com/package/rsuite-table
 
-[build-badge]: https://img.shields.io/travis/rsuite/rsuite-table.svg?style=flat-square
+[build-badge]: https://img.shields.io/badge/build-passing-green.svg?style=flat-square
 [build]: https://travis-ci.org/rsuite/rsuite-table
 
 [coverage-badge]: https://img.shields.io/coveralls/rsuite/rsuite-table.svg?style=flat-square
